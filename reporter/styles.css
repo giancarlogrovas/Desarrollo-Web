@@ -1,0 +1,36 @@
+.table tbody td{
+    background-color: #505050;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.table thead th{
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: #b79256;
+}
+
+.bg-gold{
+    background-color: #b79256;
+    border-radius: 20px;
+}
+
+.mi-tabla {
+    text-align: center;
+    width: 100%;
+}
+
+.mi-tabla td{
+    padding: 10px 0;
+}
+
+.mi-tabla #head td{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.mi-tabla #body td{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}

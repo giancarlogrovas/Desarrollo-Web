@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #333;
+    transition: border-color 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+#circle1 {
+    width: 100%;
+    height: 100%;
+}
+
+#circle2 {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+#circle3 {
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+}
+
+#circle4 {
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+}
+
+#circle5 {
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+}
+
+.circle:hover {
+    border-color: blue;
+}
+
+.circle.selected {
+    border-color: blue;
+}
+
+.icon {
+    position: absolute;
+    pointer-events: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.line {
+    position: absolute;
+    width: calc(50% + 40px); /* Ajuste para cubrir la mitad del contenedor y un poco más allá */
+    height: 2px;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 0 grados para horizontal */
+    background-color: red;
+    pointer-events: auto;
+    cursor: pointer;
+}

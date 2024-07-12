@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="contact-form-container">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="81be7e95-7988-44f3-af1e-95b703bde7bb">
+                <h2>Contacto</h2>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+                <p id="successMessage">Mensaje envioado correctamente</p>
+            </form>
+        </div>
+    </body>
+</html>

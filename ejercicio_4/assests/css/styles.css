@@ -1,0 +1,17 @@
+.logo-container img{
+    max-height: 80px;
+}
+
+.nav-link, .nav-item .dropdown-item{
+    font-size: 20px !important;
+}
+
+.profile-img-container{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.profile-img-container img{
+    width: 100%;
+}

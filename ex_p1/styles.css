@@ -1,0 +1,42 @@
+/*
+Gian Carlo Grovas Rodríguez
+0232300
+*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+#adivinanza-container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 700px;
+}
+
+#message{
+    text-align: left;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    size: 10px;
+    margin-bottom: 20px;
+}
+
+.container button{
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}

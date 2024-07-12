@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "vapes",
+        "precio": "200",
+        "stock": "20"
+    },
+    {
+        "nombre": "chocolates",
+        "precio": "20",
+        "stock": "50"
+    },
+    {
+        "nombre": "chocolates",
+        "precio": "20",
+        "stock": "50"
+    },
+    {
+        "nombre": "chocolates",
+        "precio": "20",
+        "stock": "50"
+    },
+    {
+        "nombre": "prueba",
+        "precio": "1",
+        "stock": "10"
+    },
+    {
+        "nombre": "shei",
+        "precio": "0",
+        "stock": "1"
+    }
+]
